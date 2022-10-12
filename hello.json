@@ -1,0 +1,73 @@
+{
+  "companyId": "80bea829-ea4c-45bd-aab9-f4933e4eb35d",
+  "authTokenExpireIds": [],
+  "createdDate": 1665602876298,
+  "currentVersion": 1,
+  "customerId": "ba54796782a01972980112c6f422b023",
+  "deployedDate": 1665602877113,
+  "description": "",
+  "flowStatus": "enabled",
+  "name": "Hello World",
+  "publishedVersion": 1,
+  "updatedDate": 1665602877113,
+  "flowId": "8dc3330459c822c1e14b7dbebb2ca939",
+  "versionId": 1,
+  "graphData": {
+    "elements": {
+      "nodes": [
+        {
+          "data": {
+            "id": "7bufrbc1ld",
+            "nodeType": "CONNECTION",
+            "connectionId": "867ed4363b2bc21c860085ad2baa817d",
+            "connectorId": "httpConnector",
+            "name": "Http",
+            "label": "Http",
+            "status": "configured",
+            "capabilityName": "customHtmlMessage",
+            "type": "trigger",
+            "properties": {
+              "message": {
+                "value": "[\n  {\n    \"children\": [\n      {\n        \"text\": \"Hello World\"\n      }\n    ]\n  }\n]"
+              }
+            }
+          },
+          "position": {
+            "x": 400,
+            "y": 400
+          },
+          "group": "nodes",
+          "removed": false,
+          "selected": false,
+          "selectable": true,
+          "locked": false,
+          "grabbable": true,
+          "pannable": false,
+          "classes": ""
+        }
+      ]
+    },
+    "data": {},
+    "zoomingEnabled": true,
+    "userZoomingEnabled": true,
+    "zoom": 1,
+    "minZoom": 1e-50,
+    "maxZoom": 1e+50,
+    "panningEnabled": true,
+    "userPanningEnabled": true,
+    "pan": {
+      "x": 0,
+      "y": 0
+    },
+    "boxSelectionEnabled": true,
+    "renderer": {
+      "name": "null"
+    }
+  },
+  "flowColor": "#AFD5FF",
+  "connectorIds": [
+    "httpConnector"
+  ],
+  "savedDate": 1665602876277,
+  "variables": []
+}
